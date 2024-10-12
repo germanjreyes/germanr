@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Website of Germán Reyes">
+    <meta name="author" content="Germán Reyes">
+    <meta name="generator" content="Hugo 0.72.0" />
+    <title>Germán Reyes</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Germán Reyes" />
+    <meta property="og:description" content="Website of Germán Reyes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://germanjreyes.github.io/" />
+    <link rel="canonical" href="https://germanjreyes.github.io/" />
+
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H97RM6C9H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8H97RM6C9H');
+    </script>
+
+    <!-- CSS Stylesheets -->
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/styles_navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body id="page-top">
+    <!-- Content -->
+    <div id="content">
+        <!-- Header -->
+        <header>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" id="mainNav">
+                <div class="container px-1 d-flex justify-content-center">
+                    <a class="navbar-brand text-center">
+                        <div style="font-size: 30px;"><strong>Germán Reyes</strong></div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <!-- Profile Image -->
+                    <div class="col-lg-3 d-flex justify-content-start">
+                        <img src="images/german_reyes.jpg" alt="Germán Reyes" class="img-fluid" style="max-height: 31ex; object-fit: scale-down;">
+                    </div>
+                    <!-- Profile Info -->
+                    <div class="col-lg-9">
+                        <p>
+                            I am an Assistant Professor in the Economics Department at <a href="https://www.middlebury.edu/college/academics/economics" class="n_link" target="_blank">Middlebury College</a> and an Associated Member of <a href="https://www.iza.org/" class="n_link" target="_blank">IZA Institute of Labor Economics</a>.
+                        </p>
+                        <p>
+                            My research interests are primarily in behavioral economics and labor economics. I mainly study cognitive limitations, the selection of talent, fairness views, and inequality.
+                        </p>
+                        <p>
+                            Here is my <a href="/reyes_cv.pdf" class="n_link" target="_blank">CV</a>. You can reach me at <a href="mailto:greyes@middlebury.edu">greyes@middlebury.edu</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Working Papers Section -->
+                <section id="WP">
+                    <hr class="my-3">
+                    <h5 class="section">Working Papers</h5>
+
+                    <!-- Paper 1 -->
+                    <article>
+                        <p class="p_title_p">
+                            <a href="/papers/reyes_endurance.pdf" target="_blank">
+                                Cognitive Endurance, Talent Selection, and the Labor Market Returns to Human Capital
+                            </a>
+                        </p>
+                        <p class="p_abstract_p" style="padding-left: 10px;">
+                            <a class="collapse-show" data-bs-toggle="collapse" href="#abstract-endurance" role="button" aria-expanded="false" aria-controls="abstract-endurance">Abstract</a> |
+                            <a href="https://arxiv.org/abs/2301.02575" class="n_link" target="_blank">arXiv:2301.02575</a> |
+                            <span>Updated January 2024</span>
+                        </p>
+                        <div class="px-4 collapse" id="abstract-endurance">
+                            <p class="text-justify">
+                                Cognitive endurance—the ability to sustain performance on a cognitively-demanding task over time—is thought to be a crucial productivity determinant. However, a lack of data on this variable has limited researchers' ability to understand its role for success in college and the labor market. This paper uses college-admission-exam records from 15 million Brazilian high school students to measure cognitive endurance based on changes in performance throughout the exam. By exploiting exogenous variation in the order of exam questions, I show that students are 7.1 percentage points more likely to correctly answer a given question when it appears at the beginning of the day versus the end (relative to a sample mean of 34.3%). I develop a method to decompose test scores into fatigue-adjusted ability and cognitive endurance. I then merge these measures into a higher-education census and the earnings records of the universe of Brazilian formal-sector workers to quantify the association between endurance and long-run outcomes. I find that cognitive endurance has a statistically and economically significant wage return. Controlling for fatigue-adjusted ability and other student characteristics, a one-standard-deviation higher endurance predicts a 5.4% wage increase. This wage return to endurance is sizable, equivalent to a third of the wage return to ability. I also document positive associations between endurance and college attendance, college quality, college graduation, firm quality, and other outcomes. Finally, I show how systematic differences in endurance across students interact with the exam design to determine the sorting of students to colleges. I discuss the implications of these findings for the use of cognitive assessments for talent selection and investments in interventions that build cognitive endurance.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Add other papers similarly -->
+
+                </section>
+
+                <!-- Publications Section -->
+                <section id="Publications">
+                    <hr class="my-3">
+                    <h5 class="section">Accepted, Forthcoming, and Published Papers</h5>
+
+                    <!-- Paper 1 -->
+                    <article>
+                        <p class="p_title_p">
+                            <a href="/papers/reyes_wage_setting.pdf" target="_blank">
+                                Coarse Wage-Setting and Behavioral Firms
+                            </a>
+                        </p>
+                        <p class="p_title_p" style="padding-left: 10px;">
+                            Accepted, <em>Review of Economics and Statistics</em>
+                        </p>
+                        <p class="p_abstract_p" style="padding-left: 10px;">
+                            <a class="collapse-show" data-bs-toggle="collapse" href="#abstract-wagesetting" role="button" aria-expanded="false" aria-controls="abstract-wagesetting">Abstract</a>
+                            <a href="https://arxiv.org/abs/2206.01114" class="n_link" target="_blank">| arXiv:2206.01114</a>
+                            <a href="https://www.iza.org/publications/dp/17039" class="n_link" target="_blank">| IZA WP #17039</a>
+                        </p>
+                        <div class="px-4 collapse" id="abstract-wagesetting">
+                            <p class="text-justify">
+                                This paper shows that the bunching of wages at round numbers is partly driven by firm coarse wage-setting. Using data from over 200 million new hires in Brazil, I first establish that contracted salaries tend to cluster at round numbers. Then, I show that firms that tend to hire workers at round-numbered salaries have worse market outcomes. Next, I develop a wage-posting model in which optimization costs lead to the adoption of coarse rounded wages and provide evidence supporting two model predictions using two research designs. Finally, I examine some consequences of coarse wage-setting for relevant economic outcomes.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Add other papers similarly -->
+
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-3">
+            <p>&copy; 2023 Germán Reyes</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <!-- Custom Scripts -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
