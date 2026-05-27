@@ -56,7 +56,7 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 
 ## Beyond Research
 
-When I'm not analyzing data, you'll find me [hiking](https://www.alltrails.com/members/german-reyes-2) Vermont's Green Mountains ⛰️, practicing [Brazilian Jiu-Jitsu](https://mbjiujitsu.com/) 🥋, cheering for River Plate ⚽, or listening to [This American Life](https://www.thisamericanlife.org/) 🎧.
+When I'm not analyzing data, you'll find me [hiking](https://www.alltrails.com/members/german-reyes-2) Vermont's Green Mountains ⛰️, practicing [Brazilian Jiu-Jitsu](https://mbjiujitsu.com/) 🥋, cheering for [River Plate](https://www.cariverplate.com.ar/calendario-de-partidos) ⚽, or listening to [This American Life](https://www.thisamericanlife.org/) 🎧.
 
 ---
 
