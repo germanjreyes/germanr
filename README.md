@@ -21,16 +21,29 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 ## Papers
 
 ### Working Papers
-- **[Generative AI in Higher Education](https://germanr.com/papers/cr_ai_adoption.pdf)** (with Zara Contractor) — *IZA WP #18055*
-- **[Are Elites Meritocratic and Efficiency-Seeking?](https://germanr.com/papers/psrw_elites.pdf)** (with Preuss, Somerville & Wu) — *R&R, Journal of Public Economics*
-- **[Stakes and Signals](https://germanr.com/papers/rrx_muddled_info.pdf)** (with Riehl & Xu) — *NBER WP #32608*
+- **[Generative AI in Higher Education](https://germanr.com/papers/cr_ai_adoption.pdf)**  
+  with [Zara Contractor](https://www.zaracontractor.net/)  
+  *IZA Working Paper #18055*
+- **[Stakes and Signals](https://germanr.com/papers/rrx_muddled_info.pdf)**  
+  with [Evan Riehl](https://evanriehl.github.io/) and [Ruqing Xu](http://ruqingxu.com/)  
+  *NBER Working Paper #32608*
 - **[Cognitive Endurance, Talent Selection, and the Labor Market Returns to Human Capital](https://germanr.com/papers/reyes_endurance.pdf)**
 
 ### Accepted & Published
-- **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)** — *Accepted, Review of Economics and Statistics*
-- **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)** (with Preuss, Somerville & Wu) — *Accepted, Journal of Political Economy Microeconomics*
-- **[Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)** (with Machado & Riehl) — *Journal of Labor Economics*, 2025
-- **[Are Fairness Perceptions Shaped by Income Inequality? Evidence from Latin America](https://germanr.com/papers/gr_fairness.pdf)** (with Gasparini) — *Journal of Economic Inequality*, 2022
+- **[Are Elites Meritocratic and Efficiency-Seeking?](https://germanr.com/papers/psrw_elites.pdf)**  
+  with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
+  *Accepted, Journal of Public Economics*
+- **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)**  
+  *Accepted, Review of Economics and Statistics*
+- **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
+  with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
+  *Accepted, Journal of Political Economy Microeconomics*
+- **[Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)**  
+  with [Cecilia Machado](https://sites.google.com/site/machadoc/) and [Evan Riehl](https://evanriehl.github.io/)  
+  *Journal of Labor Economics*, 2025
+- **[Are Fairness Perceptions Shaped by Income Inequality? Evidence from Latin America](https://germanr.com/papers/gr_fairness.pdf)**  
+  with [Leonardo Gasparini](https://www.cedlas.econo.unlp.edu.ar/wp/en/lgasparini/)  
+  *Journal of Economic Inequality*, 2022
 
 
 ## Background
@@ -46,4 +59,4 @@ When I'm not analyzing data, you'll find me hiking Vermont's Green Mountains ⛰
 
 ---
 
-📄 [Full CV](https://germanr.com/reyes_cv.pdf) • 🌐 [germanr.com](https://germanr.com/)
+📄 Full CV [[pdf](https://germanr.com/reyes_cv.pdf) | [html](https://germanr.com/reyes_cv.html)] • 🌐 [germanr.com](https://germanr.com/)
