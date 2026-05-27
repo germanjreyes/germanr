@@ -8,43 +8,43 @@
 
 I study how cognitive limitations, fairness perceptions, and AI shape labor markets and education.
 
-**Assistant Professor of Economics** and **Robert A. & Ina Jones Junior Fellow** at [Middlebury College](https://www.middlebury.edu/college/academics/economics) · **Research Affiliate** at [IZA](https://www.iza.org/)
+**Assistant Professor of Economics** and **Robert A. & Ina Jones Junior Fellow** at [Middlebury College](https://www.middlebury.edu/college/academics/economics)
 
 ## Research Interests
 
 My work sits at the intersection of **behavioral economics** and **labor economics**, with a focus on:
 
 - 🧠 Cognitive limitations
-- 🎓 Education markets and inequality
-- ⚖️ Fairness views and redistributive preferences
+- 🎓 Education markets
+- ⚖️ Fairness views and inequality
 - 🤖 AI's impact on higher education and labor markets
 
 ## Papers
 
 ### Working Papers
-- **[Generative AI in Higher Education](https://germanr.com/papers/cr_ai_adoption.pdf)**  
-  with [Zara Contractor](https://www.zaracontractor.net/)  
-  *IZA Working Paper #18055*
-- **[Stakes and Signals](https://germanr.com/papers/rrx_muddled_info.pdf)**  
-  with [Evan Riehl](https://evanriehl.github.io/) and [Ruqing Xu](http://ruqingxu.com/)  
-  *NBER Working Paper #32608*
+- **[Generative AI in Higher Education: Evidence from an Elite College](https://germanr.com/papers/cr_ai_adoption.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18055*
+- **[Stakes and Signals: An Empirical Investigation of Muddled Information in Standardized Testing](https://germanr.com/papers/rrx_muddled_info.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Evan Riehl](https://evanriehl.github.io/) and [Ruqing Xu](http://ruqingxu.com/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*NBER Working Paper #32608*
 - **[Cognitive Endurance, Talent Selection, and the Labor Market Returns to Human Capital](https://germanr.com/papers/reyes_endurance.pdf)**
 
-### Accepted & Published
-- **[Are Elites Meritocratic and Efficiency-Seeking?](https://germanr.com/papers/psrw_elites.pdf)**  
-  with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  *Accepted, Journal of Public Economics*
+### Accepted, Forthcoming & Published
+- **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Journal of Public Economics*
 - **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)**  
-  *Accepted, Review of Economics and Statistics*
+  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Review of Economics and Statistics*
 - **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
-  with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  *Accepted, Journal of Political Economy Microeconomics*
-- **[Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)**  
-  with [Cecilia Machado](https://sites.google.com/site/machadoc/) and [Evan Riehl](https://evanriehl.github.io/)  
-  *Journal of Labor Economics*, 2025
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Journal of Political Economy Microeconomics*
+- **[The Direct and Spillover Effects of Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Cecilia Machado](https://sites.google.com/site/machadoc/) and [Evan Riehl](https://evanriehl.github.io/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Labor Economics*, 2025
 - **[Are Fairness Perceptions Shaped by Income Inequality? Evidence from Latin America](https://germanr.com/papers/gr_fairness.pdf)**  
-  with [Leonardo Gasparini](https://www.cedlas.econo.unlp.edu.ar/wp/en/lgasparini/)  
-  *Journal of Economic Inequality*, 2022
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Leonardo Gasparini](https://www.cedlas.econo.unlp.edu.ar/wp/en/lgasparini/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Economic Inequality*, 2022
 
 
 ## Background
