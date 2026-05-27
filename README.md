@@ -1,4 +1,5 @@
-# Hi, I'm Germán Reyes 👋
+# Hi, I'm Germán 👋
+*(pronounced "her-MAHN")*
 
 [![Website](https://img.shields.io/badge/Website-germanr.com-blue?style=flat-square)](https://germanr.com/)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-green?style=flat-square&logo=googlescholar)](https://scholar.google.com/citations?user=vLQjWT0AAAAJ)
@@ -7,7 +8,7 @@
 
 I study how cognitive limitations, fairness perceptions, and AI shape labor markets and education.
 
-**Assistant Professor of Economics** at [Middlebury College](https://www.middlebury.edu/college/academics/economics) · **Research Affiliate** at [IZA](https://www.iza.org/)
+**Assistant Professor of Economics** and **Robert A. & Ina Jones Junior Fellow** at [Middlebury College](https://www.middlebury.edu/college/academics/economics) · **Research Affiliate** at [IZA](https://www.iza.org/)
 
 ## Research Interests
 
@@ -55,7 +56,7 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 
 ## Beyond Research
 
-When I'm not analyzing data, you'll find me hiking Vermont's Green Mountains ⛰️, cheering for River Plate ⚽, or listening to This American Life 🎧.
+When I'm not analyzing data, you'll find me hiking Vermont's Green Mountains ⛰️, practicing [Brazilian Jiu-Jitsu](https://mbjiujitsu.com/) 🥋, cheering for River Plate ⚽, or listening to This American Life 🎧.
 
 ---
 
