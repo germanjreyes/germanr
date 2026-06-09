@@ -1,8 +1,20 @@
 # Finding "Other Settings" for the Unanticipated-Fatigue Project
 
-**Author workspace for:** extending the *Cognitive Endurance* agenda
-(`papers/reyes_endurance.pdf`) beyond test-takers.
+**Project:** *Performance Declines and the Misallocation of High-Value Work*
+**Authors:** Carl Meyer, Germán Reyes, and Jason Somerville
+**Builds on:** the *Cognitive Endurance* agenda (`papers/reyes_endurance.pdf`),
+extending it beyond test-takers.
 **Prepared:** 2026-06-09 · branch `claude/performance-decline-data-search-xwe3lh`
+
+> **Framing note (from the title).** "Misallocation of **high-value** work" is
+> sharper than generic effort misallocation: the cost of the unanticipated
+> fade is largest when the *most consequential* task lands in a fatigued slot.
+> So the screen below should up-weight settings where (a) we can tag which
+> units of work are high-stakes and (b) we can see whether high-stakes work
+> gets scheduled into — or pushed out of — the fatigued window. The
+> physician sawtooth (a viral-vs-bacterial call placed late in the session),
+> chess endgames (the highest-leverage, most fatigue-sensitive decisions), and
+> contest problem-ordering all let us separate *high-value* from routine work.
 
 ---
 
