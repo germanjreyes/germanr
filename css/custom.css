@@ -89,5 +89,44 @@ p {
 }
 
 .container.custom-width {
-  max-width: 90%; 
+  max-width: 90%;
+}
+
+/* ------------------------------------------------------------------ */
+/* Mobile (< 768px): the base rule sets .container width to 85%, and  */
+/* the page nests .container inside .container, so on a phone content */
+/* ends up at ~72% width (85% x 85%) with large side margins. On      */
+/* small screens, let containers span the full width with a single    */
+/* comfortable gutter, and trim the big top padding (a leftover from  */
+/* a fixed-navbar template this site no longer uses).                 */
+/* ------------------------------------------------------------------ */
+@media (max-width: 767.98px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Nested containers would otherwise double the side gutter */
+  .container .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header {
+    padding-top: 1.5rem;
+  }
+
+  /* Justified text looks cramped in a narrow column; the well-designed
+     academic sites all wrap flush-left on mobile. */
+  .text-justify {
+    text-align: left !important;
+  }
+
+  /* Give the paper meta-links (Abstract | Public writing | arXiv | ...)
+     more vertical room so they are easier to tap when they wrap. */
+  .p_abstract_p {
+    line-height: 2.1;
+  }
 }
