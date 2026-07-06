@@ -36,14 +36,14 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 - **[Cognitive Endurance, Talent Selection, and the Labor Market Returns to Human Capital](https://germanr.com/papers/reyes_endurance.pdf)**
 
 ### Accepted, Forthcoming & Published
-- **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Public Economics*, 2026
 - **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Review of Economics and Statistics*
 - **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
   &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Journal of Political Economy Microeconomics*
+- **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Public Economics*, 2026
 - **[The Direct and Spillover Effects of Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Cecilia Machado](https://sites.google.com/site/machadoc/) and [Evan Riehl](https://evanriehl.github.io/)  
   &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Labor Economics*, 2025
