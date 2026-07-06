@@ -22,6 +22,11 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 ## Papers
 
 ### Working Papers
+- **[Experimental Evidence on the Learning Impact of Generative AI](https://germanr.com/papers/cr_ai_learning.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)
+- **[Competition and Anomalies Redux: Evidence from U.S. Auto Dealers](https://germanr.com/papers/hprr_dealers.pdf)**  
+  &nbsp;&nbsp;&nbsp;&nbsp;with [David Huffman](http://www.dbhuffman.com/), [Lamar Pierce](https://www.lamarpierce.net/), and [Alex Rees-Jones](https://alexreesjones.github.io/)  
+  &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18766*
 - **[Generative AI in Higher Education: Evidence from an Elite College](https://germanr.com/papers/cr_ai_adoption.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)  
   &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18055*
@@ -33,7 +38,7 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 ### Accepted, Forthcoming & Published
 - **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Journal of Public Economics*
+  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Public Economics*, 2026
 - **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Review of Economics and Statistics*
 - **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
