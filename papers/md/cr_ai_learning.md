@@ -3,7 +3,7 @@
 *Zara Contractor, Germán Reyes*  
 *July 2026*
 
-**Abstract.** We study how generative AI affects student learning in a randomized experiment. Undergraduates study an unfamiliar topic and write an analytical essay with or without access to off-the-shelf generative AI, then complete unaided assessments immediately and one week later. We measure learning with knowledge tests (factual and conceptual understanding) and open-ended essays (higher-order skills). AI access raises immediate test scores by 0.27 standard deviations. These gains persist one week later. Essay quality, by contrast, changes little while students have AI access but improves in style and relevance one week later, when students write unaided. These delayed gains are larger among augmentation users—who use AI to explain concepts rather than generate text—whereas automation users' essays have short-run quality gains that vanish one week later. We find evidence for two mechanisms behind the learning gains: students shift time away from drafting text and toward reading and searching for information, and they report greater learning enjoyment.
+**Abstract.** We study how generative AI affects student learning in a randomized experiment. In proctored, in-person sessions, undergraduates learn about an unfamiliar topic and write an analytical essay with or without access to off-the-shelf generative AI, then complete unaided assessments immediately and one week later. We measure learning with knowledge tests (factual and conceptual understanding) and open-ended essays (higher-order skills). AI access raises immediate test scores by 0.27 standard deviations. These gains persist one week later. Essay quality, by contrast, changes little while students have AI access but improves in style and relevance one week later, when students write unaided. These delayed gains are larger among augmentation users—who use AI to explain concepts rather than generate text—whereas automation users' short-run quality gains vanish once AI is removed. We find evidence for two mechanisms behind the learning gains: students shift time away from drafting text and toward reading and searching for information, and they report greater learning enjoyment.
 
 # Introduction
 
@@ -143,7 +143,7 @@ The learning gains from AI access are concentrated among middle-performing stude
 
 The effect of AI access on Session One test scores is large by the standards of the educational-intervention literature. Kraft (2020) reports a median effect of 0.10 SD among 747 RCTs; our ITT of $\hat{\beta} = 0.27$ SD is more than double this median. Two in-sample benchmarks make this magnitude concrete. A single learning session raises AI-forbidden students' test scores by 1.02 SD above baseline, and AI access adds roughly another quarter of that gain. Among control students, a one-SD increase in college GPA predicts about 0.22 SD higher test performance, so AI access is comparable to a one-SD increase in GPA. Our estimate is similar to the 0.29 SD pooled gain from structured human tutoring programs (Nickow, Oreopoulos, and Quan, 2024), with the advantage that AI access is not constrained by the supply of qualified tutors. Producing a similar effect through school spending would cost roughly $8,600 per student over four years (Jackson and Mackevicius, 2024).[^17]
 
-Figure 3 places our estimates alongside eight others from four randomized experiments (see Appendix 9.7 for the studies and inclusion criteria). The random-effects grand mean is $0.15$ SD. The estimates span a wide range, and the spread tracks the role AI plays during practice. The losses come from settings where AI could do the practice in the learner's place: high-school students with base GPT-4 solve more practice problems yet score $-$0.19 SD on a later unassisted exam (Bastani et al., 2025). The gains come from designs that cast AI as a coach: teacher-guided chatbot practice raises performance by 0.21–0.24 SD (De Simone et al., 2025), with imprecise positive estimates from AI-assisted coding practice (Kazemitabaar et al., 2023; Lehmann, Cornelius, and Sting, 2025). Students in our sample receive an unrestricted configuration, yet their gains are positive and persistent. Section 5.3 traces this to how students use AI—whether to augment their effort or automate it.
+Figure 3 places our estimates alongside 22 others from 13 randomized experiments (see Appendix 9.7 for the studies and inclusion criteria). The random-effects grand mean is $0.18$ SD. The estimates span a wide range, and the spread tracks the role AI plays during practice. The losses often come from settings where AI could do the practice in the learner's place: high-school students with base GPT-4 solve more practice problems yet score $-$0.19 SD on a later unassisted exam (Bastani et al., 2025). The gains often come from designs that cast AI as a coach: teacher-guided classroom practice with a chatbot raises test scores by 0.21–0.26 SD (De Simone et al., 2025; LearnLM Team, 2026), an AI tutor grounded in the course text raises exam performance by 0.34 SD (Fischer, Rau, and Rilke, 2025), and guided AI study outperforms unguided access (Hou et al., 2026). Students in our sample receive an unrestricted configuration, yet their gains are positive and persistent. Section 5.3 traces this to how students use AI—whether to augment their effort or automate it.
 
 ## Effects on Essay-Based Outcomes
 
@@ -173,7 +173,7 @@ AI access does not change total time spent on the learning phase (Table 7, Pane
 
 ### Time Allocation Across Learning Activities.
 
-Although total learning time is unchanged, its composition shifts away from producing text (Table 7, Panel B). Treated students spend about 5.3 percentage points less of their learning time on writing activities (drafting, editing, note-taking, and organizing), down from a control-group share of 53.4 percent ($p = 0.028$), and about 4.4 percentage points more on research activities (reading and searching), up from 44.5 percent ($p = 0.050$). The activity-level breakdown is consistent but individually imprecise: drafting falls the most as a share of time, and note-taking and organizing also decline, while editing and reading rise (Appendix Figure 10). The dominant shift is away from generating text and toward reviewing and absorbing it, with editing the one writing activity that rises, which plausibly reflects students revising AI-generated text rather than drafting their own. This pattern is consistent with a broader finding in professional settings: AI shifts effort from task execution to task stewardship (Lee et al., 2025). For example, Mozannar et al. (2024) find that GitHub Copilot users spend more than half their coding time verifying and editing AI-generated suggestions rather than writing code.
+Although total learning time is unchanged, its composition shifts away from producing text (Table 7, Panel B). Treated students spend about 5.3 pp less of their learning time on writing activities (drafting, editing, note-taking, and organizing), down from a control-group share of 53.4 percent ($p = 0.028$), and about 4.4 pp more on research activities (reading and searching), up from 44.5 percent ($p = 0.050$). The activity-level breakdown is consistent but individually imprecise: drafting falls the most as a share of time, and note-taking and organizing also decline, while editing and reading rise (Appendix Figure 10). The dominant shift is away from generating text and toward reviewing and absorbing it, with editing the one writing activity that rises, which plausibly reflects students revising AI-generated text rather than drafting their own. This pattern is consistent with a broader finding in professional settings: AI shifts effort from task execution to task stewardship (Lee et al., 2025). For example, Mozannar et al. (2024) find that GitHub Copilot users spend more than half their coding time verifying and editing AI-generated suggestions rather than writing code.
 
 ### Learning Experience.
 
@@ -226,7 +226,7 @@ AI access raises test scores more among higher-ability than lowest-ability stude
 
 ### AI Experience and Demographics.
 
-Neither prior AI experience nor demographic characteristics systematically moderate the test-score effect (Appendix Figure fig:heterogeneity_figure and Appendix Table 15). We find no evidence that essay-quality gains systematically vary with students' self-rated AI proficiency or frequency of use. We find suggestive differences by gender (women gain $0.46$ SD more than men on Session One tests, $p = 0.079$) but no systematic differences by race, nationality, or field of study.
+Neither prior AI experience nor demographic characteristics systematically moderate the test-score effect (Appendix Figure fig:heterogeneity_figure and Appendix Table 15). We find no evidence that essay-quality gains systematically vary with students' self-assessed AI proficiency or frequency of use. We find suggestive differences by gender (women gain $0.46$ SD more than men on Session One tests, $p = 0.079$) but no systematic differences by race, nationality, or field of study.
 
 # Beliefs About AI's Impact on Learning
 Students' beliefs about AI's effect on learning may shape their adoption decisions. In observational data, students report that AI improves their learning (Stöhr, Ou, and Malmström, 2024; Ravšelj et al., 2025). Yet these beliefs may not track actual effects: students hold biased beliefs in other educational settings (Jensen, 2010; Wiswall and Zafar, 2015), and even experienced professionals misjudge AI's productivity effects.[^25]
@@ -295,7 +295,7 @@ Our findings have implications for incentive design in higher education. Augment
 
 <figure id="fig:literature_comparison" data-latex-placement="H">
 <embed src="results/literature_comparison.pdf" />
-<p><em>Notes:</em> This figure compares treatment effect sizes (in standard deviations) across experiments that provide students with AI tools during a learning task and measure performance on unassisted assessments. Marker shapes indicate the outcome domain: diamonds for science (this paper), circles for math, squares for coding, and crosses for language learning. Our estimates include both knowledge test scores and essay quality for Session One (immediate) and Session Two (retention), shown above the dashed separator line. Literature estimates are from Bastani et al. (2025) (math, high school students in Turkey), De Simone et al. (2025) (English language, secondary school students in Nigeria), Kazemitabaar et al. (2023) (Python coding, K-12 learners), and Lehmann, Cornelius, and Sting (2025) (Python coding, university students in Germany). Horizontal lines show 95 percent confidence intervals. The shaded band and vertical line show the random-effects grand mean and its 95 percent confidence interval, estimated via the DerSimonian and Laird (1986) method. The dashed vertical line marks zero.</p>
+<p><em>Notes:</em> This figure compares treatment effect sizes (in standard deviations) across randomized experiments that provide students with AI tools during a learning task and measure performance on unassisted assessments. Marker shapes indicate the outcome domain: diamonds for this paper, circles for math, squares for coding, crosses for language learning, triangles for economics, hollow circles for medicine, and hollow squares for science and engineering. Our estimates include both knowledge test scores and essay quality for Session One (immediate) and Session Two (retention), shown above the dashed separator line. Literature estimates come from the 13 randomized experiments described in Appendix <a href="#app:literature_comparison" data-reference-type="ref" data-reference="app:literature_comparison">9.7</a> and summarized in Appendix Table <a href="#tab:literature_summary" data-reference-type="ref" data-reference="tab:literature_summary">19</a>. Horizontal lines show 95 percent confidence intervals. The shaded band and vertical line show the random-effects grand mean and its 95 percent confidence interval, estimated via the DerSimonian and Laird (1986) method. The dashed vertical line marks zero.</p>
 <figcaption>Effect Sizes Across AI-and-Learning Experiments</figcaption>
 </figure>
 
@@ -792,7 +792,7 @@ Our findings have implications for incentive design in higher education. Augment
 
 <div class="singlespace">
 
-*Notes:* This table reports treatment effects of AI access on four mechanisms: total time spent learning (Panel A), how that time is allocated across activities (Panel B), the learning experience (Panel C), and academic integrity (Panel D). Each row reports the effect of being assigned to the AI-allowed group on the indicated outcome. Time on task (Qualtrics) and Time on task (self-reported) are the duration of the learning phase in minutes, recorded by Qualtrics and in the post-learning survey, respectively. Time on writing activities (drafting, editing, note-taking, organizing) and Time on research activities (reading, searching) pool the corresponding self-reported minutes; these two rows report effects in log points (the control-mean column shows the baseline in minutes). The Share on research, writing, and other activities rows express each category's self-reported minutes as a percentage of the student's total self-reported learning time; these rows report effects in percentage points (the control-mean column shows the control-group share), and because the three shares sum to 100, their treatment effects sum to zero. Enjoyed learning and Found effective are 0–10 self-reports; the (above median) rows are the corresponding binary indicators. Caught by proctor, Self-reported AI use, and Any integrity violation are indicators for being flagged by a proctor during the knowledge tests, admitting unauthorized AI use on the exit survey, and either occurring; the knowledge tests prohibited all students from using external resources. All specifications include controls selected through a double-lasso procedure (Belloni, Chernozhukov, and Hansen, 2014). Heteroskedasticity-robust standard errors in parentheses. $^{***}$ $p < 0.01$; $^{**}$ $p < 0.05$; $^{*}$ $p < 0.10$.
+*Notes:* This table reports treatment effects of AI access on four mechanisms: total time spent learning (Panel A), how that time is allocated across activities (Panel B), the learning experience (Panel C), and academic integrity (Panel D). Each row reports the effect of being assigned to the AI-allowed group on the indicated outcome. Time on task (Qualtrics) and Time on task (self-reported) are the duration of the learning phase in minutes, recorded by Qualtrics and in the post-learning survey, respectively. The Share on research, writing, and other activities rows express each category's self-reported minutes as a percentage of the student's total self-reported learning time; these rows report effects in percentage points (the control-mean column shows the control-group share). Enjoyed learning and Found effective are 0–10 self-reports; the (above median) rows are the corresponding binary indicators. Caught by proctor, Self-reported AI use, and Any integrity violation are indicators for being flagged by a proctor during the knowledge tests, admitting unauthorized AI use on the exit survey, and either occurring; the knowledge tests prohibited all students from using external resources. All specifications include controls selected through a double-lasso procedure (Belloni, Chernozhukov, and Hansen, 2014). Heteroskedasticity-robust standard errors in parentheses. $^{***}$ $p < 0.01$; $^{**}$ $p < 0.05$; $^{*}$ $p < 0.10$.
 
 </div>
 
@@ -847,173 +847,187 @@ Our findings have implications for incentive design in higher education. Augment
 <div class="singlespace">
 
 # References
-<div class="thebibliography">
+Acemoglu, Daron, and Restrepo, Pascual (2019). Automation and New Tasks: How Technology Displaces and Reinstates Labor. *Journal of Economic Perspectives* 33(2):3–30.
 
-Acemoglu, D. and Restrepo, P. (2019). Automation and new tasks: How technology displaces and reinstates labor. *Journal of Economic Perspectives*, 33(2):3–30.
+Ammari, Tawfiq, Chen, Meilun, Zaman, S M Mehedi, and Garimella, Kiran (2025). How Students (Really) Use ChatGPT: Uncovering Experiences Among Undergraduate Students.
 
-Ammari, T., Chen, M., Zaman, S. M. M., and Garimella, K. (2025). How students (really) use ChatGPT: Uncovering experiences among undergraduate students.
+Andre, Peter, Haaland, Ingar, Roth, Christopher, Wiederholt, Mirko, and Wohlfart, Johannes (2026). Narratives about the Macroeconomy. *Review of Economic Studies*. Forthcoming.
 
-Andre, P., Haaland, I., Roth, C., Wiederholt, M., and Wohlfart, J. (2026). Narratives about the macroeconomy. *Review of Economic Studies*. Forthcoming.
+Ba, H., Zhang, L., and Yi, Z. (2024). Enhancing Clinical Skills in Pediatric Trainees: A Comparative Study of ChatGPT-Assisted and Traditional Teaching Methods. *BMC Medical Education* 24:558.
 
-Baird, M., Carpanelli, M., Xu, B., and Xu, K. (2026). Firms' GitHub Copilot adoption and labor market outcomes for software engineers. *Contemporary Economic Policy*.
+Baird, Matthew, Carpanelli, Mar, Xu, Brian, and Xu, Kevin (2026). Firms' GitHub Copilot Adoption and Labor Market Outcomes for Software Engineers. *Contemporary Economic Policy*.
 
-Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., and Mariman, R. (2025). Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics. *Proceedings of the National Academy of Sciences*, 122(26):e2422633122. Correction at <https://doi.org/10.1073/pnas.2518204122>.
+Bassner, Patrick, Lenk-Ostendorf, Ben, Beinstingel, Ramona, Wasner, Tobias, and Krusche, Stephan (2026). Less Stress, Better Scores, Same Learning: The Dissociation of Performance and Learning in AI-Supported Programming Education. *Computers and Education: Artificial Intelligence* 10:100537.
 
-Becker, J., Rush, N., Barnes, B., and Rein, D. (2025). Measuring the impact of early-2025 AI on experienced open-source developer productivity. Technical report, METR.
+Bastani, Hamsa, Bastani, Osbert, Sungu, Alp, Ge, Haosen, Kabakc, Özge, and Mariman, Rei (2025). Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics. *Proceedings of the National Academy of Sciences* 122(26):e2422633122. Correction at rlhttps://doi.org/10.1073/pnas.2518204122.
 
-Belloni, A., Chernozhukov, V., and Hansen, C. (2014). High-Dimensional Methods and Inference on Structural and Treatment Effects. *Journal of Economic Perspectives*, 28(2):29–50.
+Becker, Joel, Rush, Nate, Barnes, Beth, and Rein, David (2025). Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity. *METR*.
 
-Bettinger, E. P., Fox, L., Loeb, S., and Taylor, E. S. (2017). Virtual classrooms: How online college courses affect student success. *American Economic Review*, 107(9):2855–2875.
+Belloni, Alexandre, Chernozhukov, Victor, and Hansen, Christian (2014). High-Dimensional Methods and Inference on Structural and Treatment Effects. *Journal of Economic Perspectives* 28(2):29–50.
 
-Bick, A., Blandin, A., and Deming, D. J. (2026). The Rapid Adoption of Generative AI. *Management Science*.
+Bettinger, Eric P., Fox, Lindsay, Loeb, Susanna, and Taylor, Eric S. (2017). Virtual Classrooms: How Online College Courses Affect Student Success. *American Economic Review* 107(9):2855–2875.
 
-Brynjolfsson, E., Li, D., and Raymond, L. (2025). Generative AI at Work. *The Quarterly Journal of Economics*, 140(2):889–942.
+Bick, Alexander, Blandin, Adam, and Deming, David J. (2026). The Rapid Adoption of Generative AI. *Management Science*.
 
-Brynjolfsson, E. and Mitchell, T. (2017). What can machine learning do? workforce implications. *Science*, 358(6370):1530–1534.
+Brynjolfsson, Erik, and Mitchell, Tom (2017). What Can Machine Learning Do? Workforce Implications. *Science* 358(6370):1530–1534.
 
-Brysbaert, M. (2019). How many words do we read per minute? a review and meta-analysis of reading rate. *Journal of Memory and Language*, 109:104047.
+Brynjolfsson, Erik, Li, Danielle, and Raymond, Lindsey (2025). Generative AI at Work. *The Quarterly Journal of Economics* 140(2):889–942.
 
-Budzyń, K., Romańczyk, M., Kitala, D., Kołodziej, P., Bugajski, M., Adami, H. O., Blom, J., Buszkiewicz, M., Halvorsen, N., Hassan, C., Romańczyk, T., Holme, Ø., Jarus, K., Fielding, S., Kunar, M., Pellise, M., Pilonis, N., Kamiński, M. F., Kalager, M., Bretthauer, M., and Mori, Y. (2025). Endoscopist Deskilling Risk After Exposure to Artificial Intelligence in Colonoscopy: A Multicentre, Observational Study. *The Lancet Gastroenterology & Hepatology*, 10(10):896–903.
+Brysbaert, Marc (2019). How many words do we read per minute? A review and meta-analysis of reading rate. *Journal of Memory and Language* 109:104047.
 
-Bulman, G. and Fairlie, R. W. (2016). Technology and education: Computers, software, and the internet. In Hanushek, E. A., Machin, S. J., and Woessmann, L., editors, *Handbook of the Economics of Education*, volume 5, pages 239–280. Elsevier.
+Budzyń, Krzysztof, Romańczyk, Marcin, Kitala, Diana, Kołodziej, Paweł, Bugajski, Marek, Adami, Hans O., Blom, Johannes, Buszkiewicz, Marek, Halvorsen, Natalie, Hassan, Cesare, Romańczyk, Tomasz, Holme, Øyvind, Jarus, Krzysztof, Fielding, Shona, Kunar, Melina, Pellise, Maria, Pilonis, Nastazja, Kamiński, Michał Filip, Kalager, Mette, Bretthauer, Michael, and Mori, Yuichi (2025). Endoscopist Deskilling Risk After Exposure to Artificial Intelligence in Colonoscopy: A Multicentre, Observational Study. *The Lancet Gastroenterology & Hepatology* 10(10):896–903.
 
-Caldwell, J. E. (2007). Clickers in the large classroom: Current research and best-practice tips. *CBE—Life Sciences Education*, 6(1):9–20.
+Bulman, George, and Fairlie, Robert W. (2016). Technology and Education: Computers, Software, and the Internet. *Handbook of the Economics of Education* 5:239–280.
 
-Carter, S. P., Greenberg, K., and Walker, M. S. (2017). The impact of computer usage on academic performance: Evidence from a randomized trial at the United States Military Academy. *Economics of Education Review*, 56:118–132.
+Caldwell, Jane E. (2007). Clickers in the Large Classroom: Current Research and Best-Practice Tips. *CBE—Life Sciences Education* 6(1):9–20.
 
-Carver, R. P. (1992). Reading rate: Theory, research, and practical implications. *Journal of Reading*, 36(2):84–95.
+Carter, Susan Payne, Greenberg, Kyle, and Walker, Michael S. (2017). The Impact of Computer Usage on Academic Performance: Evidence from a Randomized Trial at the United States Military Academy. *Economics of Education Review* 56:118–132.
 
-Chatterji, A., Cunningham, T., Deming, D. J., Hitzig, Z., Ong, C., Shan, C. Y., and Wadman, K. (2025). How people use ChatGPT. Working Paper 34255, National Bureau of Economic Research.
+Carver, Ronald P (1992). Reading rate: Theory, research, and practical implications. *Journal of Reading* 36(2):84–95.
 
-Chi, M. T. H. and Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist*, 49(4):219–243.
+Chatterji, Aaron, Cunningham, Thomas, Deming, David J., Hitzig, Zoë, Ong, Christopher, Shan, Carl Yan, and Wadman, Kevin (2025). How People Use ChatGPT. *National Bureau of Economic Research*.
 
-Chiang, C.-H. and Lee, H.-y. (2023). Can large language models be an alternative to human evaluations? In *Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics*, pages 15607–15631. Association for Computational Linguistics.
+Chi, Michelene T. H., and Wylie, Ruth (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes. *Educational Psychologist* 49(4):219–243.
 
-Choi, J. H., Monahan, A. B., and Schwarcz, D. (2024). Lawyering in the age of artificial intelligence. *Minnesota Law Review*, 109(1):147–218.
+Chiang, Cheng-Han, and Lee, Hung-yi (2023). Can Large Language Models Be an Alternative to Human Evaluations?. *Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics* 15607–15631.
 
-Chung, A. T.-H., Zhang, B., Kung, L.-C., Bastani, H., and Bastani, O. (2026). Effective personalized AI tutors via LLM-Guided reinforcement learning. SSRN Working Paper 6423358, University of Pennsylvania.
+Choi, Jonathan H., Monahan, Amy B., and Schwarcz, Daniel (2024). Lawyering in the Age of Artificial Intelligence. *Minnesota Law Review* 109(1):147–218.
 
-Contractor, Z. and Reyes, G. (2026). Generative AI in higher education: Evidence from an elite college. IZA Discussion Paper Nr. 18055.
+Chung, Angel Tsai-Hsuan, Zhang, Botong, Kung, Ling-Chieh, Bastani, Hamsa, and Bastani, Osbert (2026). Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning. *University of Pennsylvania*.
 
-Cristia, J., Ibarrarán, P., Cueto, S., Santiago, A., and Severín, E. (2017). Technology and child development: Evidence from the One Laptop per Child program. *American Economic Journal: Applied Economics*, 9(3):295–320.
+Contractor, Zara, and Reyes, Germán (2026). Generative AI in Higher Education: Evidence from an Elite College. IZA Discussion Paper Nr. 18055.
 
-Cruces, G., Fernández Meijide, D., Galiani, S., Gálvez, R. H., and Lombardi, M. (2026). Does generative AI narrow education-based productivity gaps? Evidence from a randomized experiment. Technical Report 34851, National Bureau of Economic Research.
+Cristia, Julian, Ibarrarán, Pablo, Cueto, Santiago, Santiago, Ana, and Severín, Eugenio (2017). Technology and Child Development: Evidence from the One Laptop per Child Program. *American Economic Journal: Applied Economics* 9(3):295–320.
 
-Cui, Z. K., Demirer, M., Jaffe, S., Musolff, L., Peng, S., and Salz, T. (2026). The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers. *Management Science*.
+Cruces, Guillermo, Fernández Meijide, Diego, Galiani, Sebastian, Gálvez, Ramiro H., and Lombardi, María (2026). Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment. *National Bureau of Economic Research*.
 
-De Simone, M. E., Tiberti, F., Barrón Rodríguez, M., Manolio, F., Mosuro, W., and Dikoru, E. J. (2025). From chalkboards to chatbots: Evaluating the impact of generative AI on learning outcomes in Nigeria. Policy Research Working Paper 11125, World Bank.
+Cui, Zheyuan (Kevin), Demirer, Mert, Jaffe, Sonia, Musolff, Leon, Peng, Sida, and Salz, Tobias (2026). The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers. *Management Science*.
 
-Dell'Acqua, F., Ayoubi, C., Lifshitz, H., Sadun, R., Mollick, E., Mollick, L., Han, Y., Goldman, J., Nair, H., Taub, S., and Lakhani, K. R. (2025). The cybernetic teammate: A field experiment on generative AI reshaping teamwork and expertise. Technical Report 33641, National Bureau of Economic Research.
+Dai, Xusheng, Wen, Zhaochun, Jiang, Jianxiao, Liu, Huiqin, and Zhang, Yu (2025). How Students Use AI Feedback Matters: Experimental Evidence on Physics Achievement and Autonomy.
 
-Dell'Acqua, F., McFowland, E., Mollick, E. R., Lifshitz-Assaf, H., Kellogg, K., Rajendran, S., Krayer, L., Candelon, F., and Lakhani, K. R. (2026). Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality. *Organization Science*.
+De Simone, Martín E., Tiberti, Federico, Barrón Rodríguez, María, Manolio, Federico, Mosuro, Wuraola, and Dikoru, Eliot Jolomi (2025). From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria. *World Bank*.
 
-DerSimonian, R. and Laird, N. (1986). Meta-analysis in clinical trials. *Controlled Clinical Trials*, 7(3):177–188.
+Dell'Acqua, Fabrizio, Ayoubi, Charles, Lifshitz, Hila, Sadun, Raffaella, Mollick, Ethan, Mollick, Lilach, Han, Yi, Goldman, Jeff, Nair, Hari, Taub, Stewart, and Lakhani, Karim R. (2025). The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise. *National Bureau of Economic Research*.
 
-Dettling, L. J., Goodman, S., and Smith, J. (2018). Every little bit counts: The impact of high-speed internet on the transition to college. *The Review of Economics and Statistics*, 100(2):260–273.
+Dell'Acqua, Fabrizio, McFowland, Edward, Mollick, Ethan R., Lifshitz-Assaf, Hila, Kellogg, Katherine, Rajendran, Saran, Krayer, Lisa, Candelon, François, and Lakhani, Karim R. (2026). Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality. *Organization Science*.
 
-Doshi, A. R. and Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. *Science Advances*, 10(28):eadn5290.
+DerSimonian, Rebecca, and Laird, Nan (1986). Meta-Analysis in Clinical Trials. *Controlled Clinical Trials* 7(3):177–188.
 
-Emi, B. and Spero, M. (2024). Technical report on the Pangram AI-generated text classifier. Technical report, Pangram Labs.
+Dettling, Lisa J., Goodman, Sarena, and Smith, Jonathan (2018). Every Little Bit Counts: The Impact of High-Speed Internet on the Transition to College. *The Review of Economics and Statistics* 100(2):260–273.
 
-Escueta, M., Nickow, A. J., Oreopoulos, P., and Quan, V. (2020). Upgrading education with technology: Insights from experimental research. *Journal of Economic Literature*, 58(4):897–996.
+Doshi, Anil R., and Hauser, Oliver P. (2024). Generative AI Enhances Individual Creativity but Reduces the Collective Diversity of Novel Content. *Science Advances* 10(28):eadn5290.
 
-Figlio, D. N., Rush, M., and Yin, L. (2013). Is it live or is it internet? Experimental estimates of the effects of online instruction on student learning. *Journal of Labor Economics*, 31(4):763–784.
+Emi, Bradley, and Spero, Max (2024). Technical Report on the Pangram AI-Generated Text Classifier. *Pangram Labs*.
 
-Goldsmith-Pinkham, P., Tan, C., and Zentefis, A. K. (2026). Human-AI collaboration in radiology: The case of pulmonary embolism. *arXiv preprint arXiv:2601.13379*.
+Escueta, Maya, Nickow, Andre Joshua, Oreopoulos, Philip, and Quan, Vincent (2020). Upgrading education with technology: Insights from experimental research. *Journal of Economic Literature* 58(4):897–996.
 
-Handa, K., Bent, D., Tamkin, A., McCain, M., Durmus, E., Stern, M., Schiraldi, M., Huang, S., Ritchie, S., Syverud, S., Jagadish, K., Vo, M., Bell, M., and Ganguli, D. (2025). nthropic education report: How university students use Claude.
+Figlio, David N., Rush, Mark, and Yin, Lu (2013). Is It Live or Is It Internet? Experimental Estimates of the Effects of Online Instruction on Student Learning. *Journal of Labor Economics* 31(4):763–784.
 
-Hirabayashi, S., Jain, R., Jurković, N., and Wu, G. (2024). Harvard undergraduate survey on generative AI. *arXiv preprint arXiv:2406.00833*.
+Fischer, Mira, Rau, Holger A., and Rilke, Rainer Michael (2025). AI Tutoring Enhances Student Learning Without Crowding Out Reading Effort. *IZA Institute of Labor Economics*.
 
-Hutto, C. and Gilbert, E. (2014). Vader: A parsimonious rule-based model for sentiment analysis of social media text. In *Proceedings of the International AAAI Conference on Weblogs and Social Media (ICWSM)*, volume 8, pages 216–225.
+Gan, W., Ouyang, J., Li, H., Xue, Z., Zhang, Y., Dong, Q., Huang, J., Zheng, X., and Zhang, Y. (2024). Integrating ChatGPT in Orthopedic Education for Medical Undergraduates: Randomized Controlled Trial. *Journal of Medical Internet Research* 26:e57037.
 
-Jabarian, B. and Imas, A. (2025). Artificial writing and automated detection. NBER Working Paper 34223, National Bureau of Economic Research.
+Goldsmith-Pinkham, Paul, Tan, Chenhao, and Zentefis, Alexander K. (2026). Human-AI Collaboration in Radiology: The Case of Pulmonary Embolism. *arXiv preprint arXiv:2601.13379*.
 
-Jackson, C. K. and Mackevicius, C. L. (2024). What impacts can we expect from school spending policy? Evidence from evaluations in the U.S. *American Economic Journal: Applied Economics*, 16(1):412–446.
+Kunal Handa, Drew Bent, Alex Tamkin, Miles McCain, Esin Durmus, Michael Stern, Mike Schiraldi, Saffron Huang, Stuart Ritchie, Steven Syverud, Kamya Jagadish, Margaret Vo, Matt Bell, and Deep Ganguli (2025). Anthropic Education Report: How University Students Use Claude.
 
-Jensen, R. (2010). The (perceived) returns to education and the demand for schooling. *The Quarterly Journal of Economics*, 125(2):515–548.
+Hirabayashi, Shikoh, Jain, Rishab, Jurkovic, Nikola, and Wu, Gabriel (2024). Harvard undergraduate survey on generative AI. *arXiv preprint arXiv:2406.00833*.
 
-Jia, N., Luo, X., Fang, Z., and Liao, C. (2024). When and how artificial intelligence augments employee creativity. *Academy of Management Journal*, 67(1):5–32.
+Hou, Xiaoyu, Xiao, Bo, Liu, Hexu, and Mueller, Shane (2026). The Role of Instructional Guidance in Generative AI-Assisted Learning: Empirical Evidence from Construction Engineering Education.
 
-Kanazawa, K., Kawaguchi, D., Shigeoka, H., and Watanabe, Y. (2025). , skill, and productivity: The case of taxi drivers. *Management Science*.
+Huang, S., Wen, C., Bai, X., Li, S., Wang, S., Wang, X., and Yang, D. (2025). Exploring the Application Capability of ChatGPT as an Instructor in Skills Education for Dental Medical Students: Randomized Controlled Trial. *Journal of Medical Internet Research* 27:e68538.
 
-Kazemitabaar, M., Chow, J., Ma, C. K. T., Ericson, B. J., Weintrop, D., and Grossman, T. (2023). Studying the effect of AI code generators on supporting novice learners in introductory programming. In *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*. ACM.
+Hutto, Clayton, and Gilbert, Eric (2014). Vader: A parsimonious rule-based model for sentiment analysis of social media text. *Proceedings of the International AAAI Conference on Weblogs and Social Media (ICWSM)* 8:216–225.
 
-Kestin, G., Miller, K., Klales, A., Milbourne, T., and Ponti, G. (2025). tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports*, 15:17458.
+Jabarian, Brian, and Imas, Alex (2025). Artificial Writing and Automated Detection. *National Bureau of Economic Research*.
 
-Kim, D., Mitrofanov, D., Wen, Q., and Xu, T. (2025). Generative AI can improve performance and engagement without harming learning. SSRN Working Paper 5929576.
+Jackson, C. Kirabo, and Mackevicius, Claire L. (2024). What Impacts Can We Expect from School Spending Policy? Evidence from Evaluations in the U.S. *American Economic Journal: Applied Economics* 16(1):412–446.
 
-Kraft, M. A. (2020). Interpreting effect sizes of education interventions. *Educational Researcher*, 49(4):241–253.
+Jensen, Robert (2010). The (perceived) returns to education and the demand for schooling. *The Quarterly Journal of Economics* 125(2):515–548.
 
-Kreijkes, P., Kewenig, V., Kuvalja, M., Lee, M., Vitello, S., Hofman, J. M., Sellen, A., Rintel, S., Goldstein, D. G., Rothschild, D. M., Tankelevitch, L., and Oates, T. (2026). Effects of LLM use and note-taking on reading comprehension and memory: A randomised experiment in secondary schools. *Computers & Education*, 243:105514.
+Jia, Nan, Luo, Xueming, Fang, Zheng, and Liao, Chengcheng (2024). When and How Artificial Intelligence Augments Employee Creativity. *Academy of Management Journal* 67(1):5–32.
 
-Kumar, H., Rothschild, D. M., Goldstein, D. G., and Hofman, J. M. (2025). Math education with large language models: Peril or promise? In *Artificial Intelligence in Education (AIED 2025)*, Lecture Notes in Computer Science. Springer.
+Kanazawa, Kyogo, Kawaguchi, Daiji, Shigeoka, Hitoshi, and Watanabe, Yasutora (2025). AI, Skill, and Productivity: The Case of Taxi Drivers. *Management Science*.
 
-LearnLM Team (2024). : Improving Gemini for Learning. Google DeepMind Technical Report.
+Kavadella, Argyro, Dias da Silva, Marco Antonio, Kaklamanos, Eleftherios G., Stamatopoulos, Vasileios, and Giannakopoulos, Kostis (2024). Evaluation of ChatGPT's Real-Life Implementation in Undergraduate Dental Education: Mixed Methods Study. *JMIR Medical Education* 10:e51344.
 
-Lee, H.-P. H., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., and Wilson, N. (2025). The impact of generative AI on critical thinking: Self-reported reductions in cognitive effort and confidence effects from a survey of knowledge workers. In *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*. ACM.
+Kazemitabaar, Majeed, Chow, Justin, Ma, Carl Ka To, Ericson, Barbara J., Weintrop, David, and Grossman, Tovi (2023). Studying the Effect of AI Code Generators on Supporting Novice Learners in Introductory Programming. *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*.
 
-Lehmann, M., Cornelius, P. B., and Sting, F. J. (2025). meets the classroom: When do large language models harm learning?
+Kestin, Greg, Miller, Kelly, Klales, Anna, Milbourne, Timothy, and Ponti, Gregorio (2025). AI Tutoring Outperforms In-Class Active Learning: An RCT Introducing a Novel Research-Based Design in an Authentic Educational Setting. *Scientific Reports* 15:17458.
 
-Lewin, C., Somekh, B., and Steadman, S. (2008). Embedding interactive whiteboards in teaching and learning: The process of change in pedagogic practice. *Education and Information Technologies*, 13(4):291–303.
+Kim, Donggwan, Mitrofanov, Dmitry, Wen, Qingsong, and Xu, Tianlong (2025). Generative AI Can Improve Performance and Engagement Without Harming Learning.
 
-Lira, B., Rogers, T., Goldstein, D. G., Ungar, L., and Duckworth, A. L. (2025). Coach not crutch: Evidence that AI can improve writing skill despite reducing effort. Technical report, University of Pennsylvania. arXiv:2502.02880.
+Kraft, Matthew A. (2020). Interpreting Effect Sizes of Education Interventions. *Educational Researcher* 49(4):241–253.
 
-Liu, G., Christian, B., Dumbalska, T., Bakker, M. A., and Dubey, R. (2026). assistance reduces persistence and hurts independent performance.
+Kreijkes, Pia, Kewenig, Viktor, Kuvalja, Martina, Lee, Mina, Vitello, Sylvia, Hofman, Jake M., Sellen, Abigail, Rintel, Sean, Goldstein, Daniel G., Rothschild, David M., Tankelevitch, Lev, and Oates, Tim (2026). Effects of LLM Use and Note-Taking on Reading Comprehension and Memory: A Randomised Experiment in Secondary Schools. *Computers & Education* 243:105514.
 
-Liu, Y., Iter, D., Xu, Y., Wang, S., Xu, R., and Zhu, C. (2023). : NLG evaluation using GPT-4 with better human alignment. In *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing*, pages 2511–2522. Association for Computational Linguistics.
+Kumar, Harsh, Rothschild, David M., Goldstein, Daniel G., and Hofman, Jake M. (2025). Math Education With Large Language Models: Peril or Promise?. *Artificial Intelligence in Education (AIED 2025)*.
 
-Malamud, O. and Pop-Eleches, C. (2011). Home computer use and the development of human capital. *The Quarterly Journal of Economics*, 126(2):987–1027.
+LearnLM Team (2024). LearnLM: Improving Gemini for Learning.
 
-Masrour, E. (2025). Introducing Pangram's plagiarism detection. Pangram Labs blog post.
+LearnLM Team (2026). Teaching with Gemini: Measuring the Impact of Guided Learning on Student Mathematics Progress in Sierra Leone. *Google DeepMind and Fab AI*.
 
-Masrour, E., Emi, B. N., and Spero, M. (2025). : Detecting adversarially modified AI generated text. In *Proceedings of the 1st Workshop on Detecting AI Generated Content (GenAIDetect), COLING*, pages 71–86.
+Lee, Hao-Ping (Hank), Sarkar, Advait, Tankelevitch, Lev, Drosos, Ian, Rintel, Sean, Banks, Richard, and Wilson, Nicholas (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems*.
 
-Meincke, L., Nave, G., and Terwiesch, C. (2025). decreases idea diversity in brainstorming. *Nature Human Behaviour*, 9(6):1107–1109.
+Lehmann, Matthias, Cornelius, Philipp B., and Sting, Fabian J. (2025). AI Meets the Classroom: When Do Large Language Models Harm Learning?.
 
-Moon, K., Green, A. E., and Kushlev, K. (2025). Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing. *Computers in Human Behavior: Artificial Humans*, 6:100207.
+Lewin, Cathy, Somekh, Bridget, and Steadman, Stephen (2008). Embedding Interactive Whiteboards in Teaching and Learning: The Process of Change in Pedagogic Practice. *Education and Information Technologies* 13(4):291–303.
 
-Moon, K., Kushlev, K., Bank, A., Lira Luttges, B., Viskontas, I., Kaufman, J. C., Johnson, D. R., Duckworth, A., and Green, A. (2026). The creative link between words and ideas is weakening in the AI era. PsyArXiv preprint.
+Lira, Benjamin, Rogers, Todd, Goldstein, Daniel G., Ungar, Lyle, and Duckworth, Angela L. (2025). Coach Not Crutch: Evidence that AI Can Improve Writing Skill Despite Reducing Effort. *University of Pennsylvania*. arXiv:2502.02880.
 
-Mozannar, H., Bansal, G., Fourney, A., and Horvitz, E. (2024). Reading between the lines: Modeling user behavior and costs in AI-assisted programming. In *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*. ACM.
+Liu, Yang, Iter, Dan, Xu, Yichong, Wang, Shuohang, Xu, Ruochen, and Zhu, Chenguang (2023). G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment. *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing* 2511–2522.
 
-Nickow, A., Oreopoulos, P., and Quan, V. (2024). The promise of tutoring for PreK–12 learning: A systematic review and meta-analysis of the experimental evidence. *American Educational Research Journal*, 61(1):74–107.
+Liu, Grace, Christian, Brian, Dumbalska, Tsvetomira, Bakker, Michiel A., and Dubey, Rachit (2026). AI Assistance Reduces Persistence and Hurts Independent Performance.
 
-Noy, S. and Zhang, W. (2023). Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence. *Science*, 381(6654):187–192.
+Malamud, Ofer, and Pop-Eleches, Cristian (2011). Home Computer Use and the Development of Human Capital. *The Quarterly Journal of Economics* 126(2):987–1027.
 
-OpenAI (2025). Building an AI-ready workforce: A look at college student ChatGPT adoption in the US. Technical report, OpenAI.
+Masrour, Elyas (2025). Introducing Pangram's Plagiarism Detection.
 
-Peng, S., Kalliamvakou, E., Cihon, P., and Demirer, M. (2023). The Impact of AI on Developer Productivity: Evidence from GitHub Copilot.
+Masrour, Elyas, Emi, Bradley N., and Spero, Max (2025). DAMAGE: Detecting Adversarially Modified AI Generated Text. *Proceedings of the 1st Workshop on Detecting AI Generated Content (GenAIDetect), COLING* 71–86.
 
-Poulidis, S., Bastani, H., and Bastani, O. (2025). Self-regulated AI use hinders long-term learning. SSRN Working Paper 5604932, University of Pennsylvania.
+Meincke, Lennart, Nave, Gideon, and Terwiesch, Christian (2025). ChatGPT Decreases Idea Diversity in Brainstorming. *Nature Human Behaviour* 9(6):1107–1109.
 
-Ravšelj, D., Keržič, D., Tomaževič, N., Umek, L., Brezovar, N., et al. (2025). Higher Education Students' Perceptions of ChatGPT: A Global Study of Early Reactions. *PLOS ONE*, 20(2):e0315011.
+Moon, Kibum, Kushlev, Kostadin, Bank, Andrew, Lira Luttges, Benjamin, Viskontas, Indre, Kaufman, James C., Johnson, Dan Richard, Duckworth, Angela, and Green, Adam (2026). The Creative Link Between Words and Ideas Is Weakening in the AI Era. PsyArXiv preprint.
 
-Reimers, N. and Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. In *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing*, pages 3982–3992. Association for Computational Linguistics.
+Moon, Kibum, Green, Adam E., and Kushlev, Kostadin (2025). Homogenizing Effect of Large Language Models (LLMs) on Creative Diversity: An Empirical Comparison of Human and ChatGPT Writing. *Computers in Human Behavior: Artificial Humans* 6:100207.
 
-Risko, E. F. and Gilbert, S. J. (2016). Cognitive offloading. *Trends in Cognitive Sciences*, 20(9):676–688.
+Mozannar, Hussein, Bansal, Gagan, Fourney, Adam, and Horvitz, Eric (2024). Reading Between the Lines: Modeling User Behavior and Costs in AI-Assisted Programming. *Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems*.
 
-Shen, J. H. and Tamkin, A. (2026). How AI impacts skill formation.
+Nickow, Andre, Oreopoulos, Philip, and Quan, Vincent (2024). The Promise of Tutoring for PreK–12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence. *American Educational Research Journal* 61(1):74–107.
 
-Song, K., Tan, X., Qin, T., Lu, J., and Liu, T.-Y. (2020). : Masked and permuted pre-training for language understanding. In *Advances in Neural Information Processing Systems (NeurIPS)*, volume 33, pages 16857–16867.
+Noy, Shakked, and Zhang, Whitney (2023). Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence. *Science* 381(6654):187–192.
 
-Stöhr, C., Ou, A. W., and Malmström, H. (2024). Perceptions and Usage of AI Chatbots Among Students in Higher Education Across Genders, Academic Levels and Fields of Study. *Computers and Education: Artificial Intelligence*, 7:100259.
+OpenAI (2025). Building an AI-Ready Workforce: A Look at College Student ChatGPT Adoption in the US. *OpenAI*.
 
-Strömberg, D., Lei, V., and Wu, Y. (2026). The generative AI learning penalty: Evidence from Chinese secondary education. CEPR Discussion Paper 21577, Centre for Economic Policy Research.
+Peng, Sida, Kalliamvakou, Eirini, Cihon, Peter, and Demirer, Mert (2023). The Impact of AI on Developer Productivity: Evidence from GitHub Copilot.
 
-Thai, K., Emi, B., Masrour, E., and Iyyer, M. (2026). : Quantifying the extent of AI editing in text. In *International Conference on Learning Representations (ICLR)*.
+Poulidis, Stefanos, Bastani, Hamsa, and Bastani, Osbert (2025). Self-Regulated AI Use Hinders Long-Term Learning. *University of Pennsylvania*.
 
-Vigdor, J. L., Ladd, H. F., and Martinez, E. (2014). Scaling the digital divide: Home computer technology and student achievement. *Economic Inquiry*, 52(3):1103–1119.
+Ravšelj, Dejan, Keržič, Damijana, Tomaževič, Nina, Umek, Lan, Brezovar, Nejc, and others (2025). Higher Education Students' Perceptions of ChatGPT: A Global Study of Early Reactions. *PLOS ONE* 20(2):e0315011.
 
-Wiswall, M. and Zafar, B. (2015). Determinants of college major choice: Identification using an information experiment. *The Review of Economic Studies*, 82(2):791–824.
+Reimers, Nils, and Gurevych, Iryna (2019). Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing* 3982–3992.
 
-Xu, X., Qiao, L., Cheng, N., Liu, H., and Zhao, W. (2025). Enhancing self-regulated learning and learning experience in generative AI environments: The critical role of metacognitive support. *British Journal of Educational Technology*, 56(5):1842–1863.
+Risko, Evan F., and Gilbert, Sam J. (2016). Cognitive Offloading. *Trends in Cognitive Sciences* 20(9):676–688.
 
-Yakura, H., Lopez-Lopez, E., Brinkmann, L., Serna, I., Gupta, P., Soraperra, I., and Rahwan, I. (2024). Empirical evidence of large language model's influence on human spoken communication.
+Shen, Judy Hanwen, and Tamkin, Alex (2026). How AI Impacts Skill Formation.
 
-Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., and Stoica, I. (2023). Judging LLM-as-a-judge with MT-Bench and Chatbot Arena. In *Advances in Neural Information Processing Systems*, volume 36.
+Song, Kaitao, Tan, Xu, Qin, Tao, Lu, Jianfeng, and Liu, Tie-Yan (2020). MPNet: Masked and Permuted Pre-training for Language Understanding. *Advances in Neural Information Processing Systems (NeurIPS)* 33:16857–16867.
 
-</div>
+Strömberg, David, Lei, Victor, and Wu, Yanhui (2026). The Generative AI Learning Penalty: Evidence from Chinese Secondary Education. *Centre for Economic Policy Research*.
+
+Stöhr, Christian, Ou, Amy Wanyu, and Malmström, Hans (2024). Perceptions and Usage of AI Chatbots Among Students in Higher Education Across Genders, Academic Levels and Fields of Study. *Computers and Education: Artificial Intelligence* 7:100259.
+
+Thai, Katherine, Emi, Bradley, Masrour, Elyas, and Iyyer, Mohit (2026). EditLens: Quantifying the Extent of AI Editing in Text. *International Conference on Learning Representations (ICLR)*.
+
+Vigdor, Jacob L., Ladd, Helen F., and Martinez, Erika (2014). Scaling the Digital Divide: Home Computer Technology and Student Achievement. *Economic Inquiry* 52(3):1103–1119.
+
+Wiswall, Matthew, and Zafar, Basit (2015). Determinants of college major choice: Identification using an information experiment. *The Review of Economic Studies* 82(2):791–824.
+
+Xu, Xiaoqing, Qiao, Lifang, Cheng, Nuo, Liu, Hongxia, and Zhao, Wei (2025). Enhancing Self-Regulated Learning and Learning Experience in Generative AI Environments: The Critical Role of Metacognitive Support. *British Journal of Educational Technology* 56(5):1842–1863.
+
+Yakura, Hiromu, Lopez-Lopez, Ezequiel, Brinkmann, Levin, Serna, Ignacio, Gupta, Prateek, Soraperra, Ivan, and Rahwan, Iyad (2024). Empirical evidence of large language model's influence on human spoken communication.
+
+Zheng, Lianmin, Chiang, Wei-Lin, Sheng, Ying, Zhuang, Siyuan, Wu, Zhanghao, Zhuang, Yonghao, Lin, Zi, Li, Zhuohan, Li, Dacheng, Xing, Eric P., Zhang, Hao, Gonzalez, Joseph E., and Stoica, Ion (2023). Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. *Advances in Neural Information Processing Systems* 36.
 
 </div>
 
@@ -1209,7 +1223,7 @@ Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li
 +-----------------------------------------+----------+------------------+----------+------------------+----------+------------------+----------+------------------+----------+
 |                                         |          | (0.108           | )        | (0.116           | )        | (0.145           | )        | (0.164           | )        |
 +-----------------------------------------+----------+------------------+----------+------------------+----------+------------------+----------+------------------+----------+
-| Early AI adopter (pre$-$Fall 2024)      |          | 0.176            | $^{*}$   | 0.161            |          | $-$0.012 |          | $-$0.071 |          |
+| Early AI adopter (before Fall 2024)     |          | 0.176            | $^{*}$   | 0.161            |          | $-$0.012 |          | $-$0.071 |          |
 +-----------------------------------------+----------+------------------+----------+------------------+----------+------------------+----------+------------------+----------+
 |                                         |          | (0.094           | )        | (0.103           | )        | (0.111           | )        | (0.131           | )        |
 +-----------------------------------------+----------+------------------+----------+------------------+----------+------------------+----------+------------------+----------+
@@ -1884,16 +1898,25 @@ We use the conversation-level classification to construct student-level indicato
 ## Literature Comparison
 We surveyed experimental papers on generative AI and learning outcomes published or circulated between 2023 and 2026. We required that each study satisfy seven criteria: (1) a randomized experimental design; (2) an effect size reported in standard deviations or convertible from reported statistics; (3) a standard error or confidence interval (reported or back-calculable); (4) an outcome measuring learning on an unassisted assessment, excluding tasks where AI was available during evaluation; (5) a clean no-AI control, rather than an active comparison such as human tutoring or structured hints; (6) a total sample size of at least 50 participants; and (7) a sample composed of students, rather than working professionals or general online participants.
 
-Appendix Table 19 summarizes the four included studies; we describe each below.
+Appendix Table 19 summarizes the 13 included studies; we describe each below.
 
 <div id="tab:literature_summary">
 
-  Study                                  Domain       $N$ Design                 Outcome                      Estimates
-  -------------------------------------- ---------- ----- ---------------------- ---------------------------- -----------
-  Bastani et al. (2025)                  Math         839 Cluster RCT            Unassisted exam              2
-  De Simone et al. (2025)                Language     759 RCT                    Unassisted post-test         2
-  Kazemitabaar et al. (2023)             Coding        69 RCT                    Post-test + 1-wk retention   2
-  Lehmann, Cornelius, and Sting (2025)   Coding       176 Lab RCT ($\times 2$)   Unassisted post-test         2
+  Study                                  Domain            $N$ Design                 Outcome                      Estimates
+  -------------------------------------- ------------- ------- ---------------------- ---------------------------- -----------
+  Ba, Zhang, and Yi (2024)               Medicine           77 RCT                    Unassisted exam              1
+  Bassner et al. (2026)                  Coding            275 RCT                    Unassisted post-test         2
+  Bastani et al. (2025)                  Math              839 Cluster RCT            Unassisted exam              2
+  Dai et al. (2025)                      Physics           349 RCT ($\times 2$)       Unassisted exam              3
+  De Simone et al. (2025)                Language          759 RCT                    Unassisted post-test         2
+  Fischer, Rau, and Rilke (2025)         Economics         334 Lab RCT                Unassisted exam              2
+  Gan et al. (2024)                      Medicine          110 RCT                    Unassisted exam              1
+  Hou et al. (2026)                      Engineering        95 RCT                    Unassisted post-test         2
+  Huang et al. (2025)                    Medicine          187 RCT                    Unassisted skill test        1
+  Kavadella et al. (2024)                Medicine           77 RCT                    Unassisted exam              1
+  Kazemitabaar et al. (2023)             Coding             69 RCT                    Post-test + 1-wk retention   2
+  LearnLM Team (2026)                    Math            1,763 Cluster RCT            Unassisted exam              1
+  Lehmann, Cornelius, and Sting (2025)   Coding            176 Lab RCT ($\times 2$)   Unassisted post-test         2
 
   : Included Studies in Literature Comparison
 
@@ -1905,15 +1928,33 @@ Appendix Table 19 summarizes the four included studies; we describe each below.
 
 </div>
 
+Ba, Zhang, and Yi (2024) randomized 77 medical interns rotating through pediatric cardiology at Sun Yat-sen University to two weeks of ChatGPT-assisted instruction or standard bedside teaching with identical cases and instructors. Scores on a closed-book knowledge exam were statistically indistinguishable ($-$0.07 SD), with both groups near the test ceiling. We computed the effect size and standard error from reported means and standard deviations.
+
+Bassner et al. (2026) randomized 452 introductory-programming students at TU Munich to a 90-minute Java exercise with a scaffolded LLM tutor (Iris), unrestricted ChatGPT, or no AI (275 analyzed after exclusions). Both AI arms scored higher on the exercise itself, but on the supervised, unassisted knowledge test neither arm learned more than the control: baseline-adjusted gains are $-$0.07 SD (Iris) and $-$0.01 SD (ChatGPT)—the paper's titular dissociation between performance and learning. We standardized the difference in pre–post gains by the pooled pre-test standard deviation.
+
 Bastani et al. (2025) conducted a cluster-randomized trial with 839 Turkish high school students learning math on an online platform. Students were assigned to base GPT-4 access, GPT-4 with a tutoring prompt that withheld direct answers, or a no-AI control, and took an unassisted math exam after the practice period. Although base GPT-4 students solved more practice problems during the AI-assisted phase, this advantage reversed on the unassisted exam: the base group scored $-$0.19 SD relative to the control, while the tutor-prompted group scored $-$0.01 SD. We converted the authors' raw-scale standard errors to SD units by dividing by the control-arm standard deviation (0.277).
+
+Dai et al. (2025) ran two randomized experiments with grade-10 physics students at a Chinese high school (Experiment 1: $N = 121$; Experiment 2: $N = 266$), providing LLM-generated feedback on regular homework over five weeks. In Experiment 1, treated students received recommended problems with AI heuristic hints; in Experiment 2, students could request AI help on demand while studying, either choosing the feedback type themselves or receiving the system's choice. Effects on the unassisted end-of-term physics exam are small and insignificant in all three AI arms relative to no-intervention controls (0.03–0.21 SD). Exam scores are standardized, so regression coefficients are effect sizes directly.
 
 De Simone et al. (2025) studied 759 secondary school students in Nigeria randomly assigned to practice English language skills with an AI chatbot or a no-AI control. Students showed gains on unassisted post-tests in English skills (0.24 SD) and on the school's regular third-term curricular exam at the end of the intervention (0.21 SD). They also report a "total" estimate bundling AI and digital literacy skills directly taught by the intervention; we exclude it because it captures treatment-specific content rather than general learning.
 
-Kazemitabaar et al. (2023) ran a 10-session randomized trial with 69 K-12 learners (ages 10–17, novice programmers) using OpenAI Codex to support Python authoring tasks. AI access produced large performance gains during training (1.67 SD) but no detectable difference on an immediate unassisted post-test (0.05 SD) and only a marginal difference on a one-week retention test of code modification (0.41 SD, 95 percent CI $[-0.07, 0.89]$). Standard errors were back-calculated from the reported $N$ and standardized effect size. We include both unassisted estimates in our curated set.
+Fischer, Rau, and Rilke (2025) randomized 334 university students in Berlin to study two microeconomics textbook excerpts with a GPT-4-based tutor grounded in the readings—available either throughout the session or only after ten minutes of independent reading—or with the textbook alone. On an incentivized, unassisted 25-question exam, unrestricted AI tutoring raised performance by 0.34 SD, while restricted access produced a statistically insignificant 0.13 SD. Test scores are standardized, so the reported coefficients are effect sizes directly.
+
+Gan et al. (2024) randomized 110 third-year medical students at Jinan University to a one-week orthopedics review using ChatGPT-4 or conventional internet resources. The ChatGPT group scored 0.40 SD higher on an unassisted 214-item orthopedics exam. We computed the effect size and standard error from reported means and standard deviations.
+
+Hou et al. (2026) randomized 95 undergraduates with no prior construction-related coursework to review construction-engineering material with a generative-AI assistant—with or without a structured prompting framework—or with lecture slides only. On an unassisted post-test combining multiple-choice and open-ended items, guided AI use raised total scores by 0.86 SD, while unguided use produced a near-zero effect (0.09 SD). We computed effect sizes and standard errors from reported means and standard deviations.
+
+Huang et al. (2025) randomized 187 dental students at Wuhan University to one week of operative-skills training with instructional videos plus ChatGPT-3.5 or the same videos alone. The ChatGPT group scored 0.67 SD higher on an unassisted virtual-reality skill assessment. We computed the effect size and standard error from reported means and standard deviations.
+
+Kavadella et al. (2024) randomized 77 second-year dental students at European University Cyprus to complete a radiation-biology assignment using ChatGPT or conventional literature search. On an unannounced, unassisted ten-question exam, the ChatGPT group scored 0.52 SD higher. We computed the effect size and standard error from reported means and standard deviations.
+
+Kazemitabaar et al. (2023) ran a 10-session randomized trial with 69 K-12 learners (ages 10–17, novice programmers) using OpenAI Codex to support Python authoring tasks. AI access produced large performance gains during training (1.67 SD) but no detectable difference on an immediate unassisted post-test ($-$0.05 SD; the baseline group scored slightly higher, 62.9 versus 61.3 percent) and only a marginal difference on a one-week retention test of code modification (0.41 SD). Standard errors were back-calculated from the reported $N$ and standardized effect size.
+
+LearnLM Team (2026) conducted a preregistered trial randomizing 48 mathematics classrooms (1,763 grade 7–8 students) in Sierra Leone to integrate Gemini's Guided Learning feature into half of weekly lessons for eight weeks or to continue standard instruction. The intent-to-treat effect on an unassisted, IRT-scaled endline mathematics assessment is 0.26 SD, with standard errors clustered at the classroom level.
 
 Lehmann, Cornelius, and Sting (2025) ran two laboratory experiments with German university students learning Python programming (Study 2: $N = 107$; Study 3: $N = 69$). In both, treated students used ChatGPT during practice and then completed a 20-question unassisted coding post-test. Effects are 0.25 SD (Study 2) and 0.42 SD (Study 3), neither individually significant at conventional levels. Study 2 included an unintended copy-paste restriction that may have affected the treatment.
 
-The random-effects grand mean in Figure 3 uses DerSimonian and Laird (1986) weights, accounting for between-study heterogeneity through a variance component estimated from study-level effects. The pooled estimate combines all 12 point estimates: 8 from the literature and 4 from this paper.
+The random-effects grand mean in Figure 3 uses DerSimonian and Laird (1986) weights, accounting for between-study heterogeneity through a variance component estimated from study-level effects. The pooled estimate combines all 26 point estimates: 22 from the literature and 4 from this paper.
 
 # Student Beliefs About AI and Learning
 This section analyzes student responses to an open-ended question included in the Session Two survey: "In your opinion, how does generative AI (e.g., ChatGPT) affect student learning in college? Please explain your reasoning." Of 204 students who attended both sessions, all 204 provided a non-missing response. We analyze these responses in two ways: sentiment analysis to show the measure carries signal rather than noise, and causal-graph coding, following Andre et al. (2026), to characterize how students reason about AI and learning.
@@ -1968,7 +2009,7 @@ The taxonomy also maps onto the use classification in the main text. Explanation
 <figcaption>Panel C. A conditional narrative</figcaption>
 </figure>
 
-We code each response with an LLM (Claude Opus 4.8). Of the 204 non-missing responses, 200 (98 percent) can be represented as a causal graph; the rest are non-substantive (e.g., "I don't know"). As a validation, we code every response a second time with a model from a different developer (OpenAI's GPT-5.5) and compute their inter-rater agreement statistic, the pooled probability that a code assigned by one rater is also assigned by the other. Agreement matches the trained human coders in Andre et al. (2026): 0.88 for the individual mechanisms (0.88 in their data), 0.97 for the coarser promotes-versus-harms grouping (0.94 and 0.93), and 0.73 for the signed links (0.77), with the mechanism and link statistics far above their random-coding benchmarks of 0.32 and 0.21, respectively. The two models agree on a response's overall valence 94 percent of the time and on its augmentation-versus-automation framing 85 percent of the time.[^28]
+We code each response with an LLM (Claude Opus 4.8). The majority of responses ($98$ percent) can be represented as a causal graph; the rest are non-substantive (e.g., "I don't know"). As a validation, we code every response a second time with a model from a different developer (OpenAI's GPT-5.5) and compute their inter-rater agreement statistic, the pooled probability that a code assigned by one rater is also assigned by the other. Agreement matches the trained human coders in Andre et al. (2026): 0.88 for the individual mechanisms (0.88 in their data), 0.97 for the coarser promotes-versus-harms grouping (0.94 and 0.93), and 0.73 for the signed links (0.77), with the mechanism and link statistics far above their random-coding benchmarks of 0.32 and 0.21, respectively. The two models agree on a response's overall valence 94 percent of the time and on its augmentation-versus-automation framing 85 percent of the time.[^28]
 
 ## The Narratives of College Students
 ### The Average Narrative.
@@ -1977,11 +2018,11 @@ The average narrative contains 3.6 mechanisms and 6.4 links, and 96 percent of c
 
 ### Variation Across Students.
 
-We ask how narratives vary with student characteristics. Appendix Table 20 regresses each of six narrative features—three sophistication measures (the number of mechanisms, the number of signed links, and an indicator for naming more than one mechanism) and the three framing measures (augmentation, automation, and conditional-on-use)—on the randomized treatment and the full set of student characteristics from Appendix Table 9.
+We ask how narratives vary with student characteristics. Appendix Table 20 regresses each of six narrative features—three *sophistication* measures (the number of mechanisms, the number of signed links, and an indicator for naming more than one mechanism) and the three *framing* measures (augmentation, automation, and conditional-on-use)—on the randomized treatment and the full set of student characteristics from Appendix Table 9.
 
-Among AI-experience measures, only self-rated proficiency predicts how students frame AI. Students with above-median proficiency are 17.0 percentage points more likely than less proficient students to frame AI as augmentation ($p = 0.019$) and 11.9 pp less likely to frame it as automation, though the latter is marginally significant ($p = 0.065$). Neither adoption timing nor randomized access reproduces this gradient. Early adopters—those who first used AI before Fall 2024—differ from later adopters on none of the narrative features, and randomized AI access shifts no feature at conventional levels; the largest difference is a 7.2 pp lower automation share among treated students ($p = 0.205$). The framing gradient therefore reflects how well a student uses AI, not how much, how early they began, or a single session of access.
+Among the AI-experience measures, only self-assessed proficiency predicts how students frame AI. Students with above-median proficiency are 17.0 percentage points more likely than less proficient students to frame AI as augmentation ($p = 0.019$) and 11.9 pp less likely to frame it as automation ($p = 0.065$). Early adopters—those who first used AI for academics before Fall 2024—do not differ from later adopters on any narrative feature, and randomized AI access shifts none of the six: the largest treatment difference, a 7.2 pp lower automation share among treated students, is imprecisely estimated ($p = 0.205$). Framing thus tracks how well students use AI, not how often they use it, how early they began, or whether they received a single session of access.
 
-Demographics, academic background, and beliefs, by contrast, do shape narratives. Men name 0.39 fewer mechanisms and 0.74 fewer links than women ($p = 0.093$ and $p = 0.073$), the same gender pattern Andre et al. (2026) report, and students with above-median GPAs are 8.8 pp more likely to name more than one mechanism ($p = 0.037$). Natural-science majors stand out on content: they are 29 pp more likely to condition AI's effect on how it is used ($p = 0.002$) and 19.9 pp less likely to frame it as automation ($p = 0.004$). Students who expect large AI effects on their own test scores lean the same way: they are 13.0 pp less likely to frame AI as automation ($p = 0.028$) and 15.1 pp more likely to condition its effect on use, though the latter is marginally significant ($p = 0.063$).
+Demographics, academic background, and beliefs, by contrast, do predict narratives. Men name 0.39 fewer mechanisms and 0.74 fewer links than women (both marginally significant; $p = 0.093$ and $p = 0.073$), the same gender difference Andre et al. (2026) document in narratives about inflation. Students with above-median GPAs are 8.8 pp more likely to name more than one mechanism ($p = 0.037$). Framing varies instead with field of study and beliefs about AI. Natural-science majors are 29 pp more likely to condition AI's effect on how it is used ($p = 0.002$) and 19.9 pp less likely to frame it as automation ($p = 0.004$). Students who expect large AI effects on their own test scores frame AI the same way: they are 13.0 pp less likely to frame it as automation ($p = 0.028$) and 15.1 pp more likely to condition its effect on use, though the latter is marginally significant ($p = 0.063$).
 
 <div class="center">
 
@@ -2079,7 +2120,7 @@ Demographics, academic background, and beliefs, by contrast, do shape narratives
 
 We next ask whether students' narratives come in recurring types or "clusters." Following Andre et al. (2026), we measure the distance between two narratives as the fraction of their combined signed links that the two do not have in common (the Jaccard distance), group narratives with agglomerative hierarchical clustering with average linkage, and choose the number of clusters to maximize the average silhouette, a standard measure of how well each narrative fits its own cluster relative to the nearest alternative.
 
-Four narrative types cover 94.0 percent of coded responses, while the rest scatter across small clusters (Appendix Figure fig:narr_clusters). The modal type (45 percent) is the double-edged narrative, in which mode of use feeds both an explanation channel and a shortcutting channel. A pure augmentation type (32 percent) chains efficiency, information access, and explanation to higher learning, though many of these narratives also flag accuracy concerns, and a pure automation type (10 percent) chains shortcutting and offloading to lower learning. The remaining type is smaller and one-sided: a deskilling narrative (7.0 percent), in which skill atrophy and offloading erode critical thinking.
+Four narrative types cover 94.0 percent of coded responses, while the rest scatter across small clusters (Appendix Figure fig:narr_clusters). The modal type (45 percent) is the double-edged narrative, in which mode of use feeds both an explanation channel and a shortcutting channel. An augmentation type (32 percent) chains efficiency, information access, and explanation to higher learning, though many of these narratives also flag accuracy concerns, and an automation type (10 percent) chains shortcutting and offloading to lower learning. The remaining type is smaller and one-sided: a deskilling narrative (7.0 percent), in which skill atrophy and offloading erode critical thinking.
 
 <figure data-latex-placement="H">
 <figure>
@@ -2088,11 +2129,11 @@ Four narrative types cover 94.0 percent of coded responses, while the rest scatt
 </figure>
 <figure>
 <embed src="results/fig_dag_cluster_augmentation.pdf" />
-<figcaption>Panel B. Pure augmentation (32 percent)</figcaption>
+<figcaption>Panel B. Augmentation (32 percent)</figcaption>
 </figure>
 <figure>
 <embed src="results/fig_dag_cluster_automation.pdf" />
-<figcaption>Panel C. Pure automation (10 percent)</figcaption>
+<figcaption>Panel C. Automation (10 percent)</figcaption>
 </figure>
 <figure>
 <embed src="results/fig_dag_cluster_deskilling.pdf" />
