@@ -26,7 +26,7 @@ My work sits at the intersection of **behavioral economics** and **labor economi
   &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)
 - **[Competition and Anomalies Redux: Evidence from U.S. Auto Dealers](https://germanr.com/papers/hprr_dealers.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [David Huffman](http://www.dbhuffman.com/), [Lamar Pierce](https://www.lamarpierce.net/), and [Alex Rees-Jones](https://alexreesjones.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18766*
+  &nbsp;&nbsp;&nbsp;&nbsp;*NBER Working Paper #35454*
 - **[Generative AI in Higher Education: Evidence from an Elite College](https://germanr.com/papers/cr_ai_adoption.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)  
   &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18055*
