@@ -18,6 +18,20 @@ header {
   margin: 0 auto; /* centers the container */
 }
 
+/* The page nests .container inside .container, which would otherwise shrink
+   content twice (85% x 85% ~= 72%) and force paper meta-link rows onto two
+   lines. Let a nested container fill the width its parent already allots. */
+.container .container {
+  width: 100%;
+}
+
+/* Content rows total 10 of 12 columns (bio: col-3 + col-7; papers: col-10)
+   and were left-aligned, leaving ~2 empty columns of whitespace on the right.
+   Center them so the left and right margins are symmetric. */
+.container .row {
+  justify-content: center;
+}
+
 b {
     font-weight: 600;
 }
