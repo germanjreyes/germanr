@@ -40,7 +40,7 @@ My work sits at the intersection of **behavioral economics** and **labor economi
   &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Review of Economics and Statistics*
 - **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Journal of Political Economy Microeconomics*
+  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Political Economy Microeconomics*, 2026
 - **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
   &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
   &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Public Economics*, 2026
