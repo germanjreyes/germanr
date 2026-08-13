@@ -19,39 +19,6 @@ My work sits at the intersection of **behavioral economics** and **labor economi
 - ⚖️ Fairness views and inequality
 - 🤖 AI's impact on higher education and labor markets
 
-## Papers
-
-### Working Papers
-- **[Experimental Evidence on the Learning Impact of Generative AI](https://germanr.com/papers/cr_ai_learning.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)
-- **[Competition and Anomalies Redux: Evidence from U.S. Auto Dealers](https://germanr.com/papers/hprr_dealers.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [David Huffman](http://www.dbhuffman.com/), [Lamar Pierce](https://www.lamarpierce.net/), and [Alex Rees-Jones](https://alexreesjones.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*NBER Working Paper #35454*
-- **[Generative AI in Higher Education: Evidence from an Elite College](https://germanr.com/papers/cr_ai_adoption.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Zara Contractor](https://www.zaracontractor.net/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*IZA Working Paper #18055*
-- **[Stakes and Signals: An Empirical Investigation of Muddled Information in Standardized Testing](https://germanr.com/papers/rrx_muddled_info.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Evan Riehl](https://evanriehl.github.io/) and [Ruqing Xu](http://ruqingxu.com/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*NBER Working Paper #32608*
-- **[Cognitive Endurance, Talent Selection, and the Labor Market Returns to Human Capital](https://germanr.com/papers/reyes_endurance.pdf)**
-
-### Accepted, Forthcoming & Published
-- **[Coarse Wage-Setting and Behavioral Firms](https://germanr.com/papers/reyes_wage_setting.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Accepted, Review of Economics and Statistics*
-- **[Inequality of Opportunity and Income Redistribution](https://germanr.com/papers/psrw_ineq_opp.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Political Economy Microeconomics*, 2026
-- **[Are Elites Meritocratic and Efficiency-Seeking? Evidence from MBA Students](https://germanr.com/papers/psrw_elites.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Marcel Preuss](https://sites.google.com/view/marcelpreuss), [Jason Somerville](https://www.jason-somerville.com/), and [Joy Wu](https://joyzwu.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Public Economics*, 2026
-- **[The Direct and Spillover Effects of Large-Scale Affirmative Action at an Elite Brazilian University](https://germanr.com/papers/mrr_affirmative_action.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Cecilia Machado](https://sites.google.com/site/machadoc/) and [Evan Riehl](https://evanriehl.github.io/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Labor Economics*, 2025
-- **[Are Fairness Perceptions Shaped by Income Inequality? Evidence from Latin America](https://germanr.com/papers/gr_fairness.pdf)**  
-  &nbsp;&nbsp;&nbsp;&nbsp;with [Leonardo Gasparini](https://www.cedlas.econo.unlp.edu.ar/wp/en/lgasparini/)  
-  &nbsp;&nbsp;&nbsp;&nbsp;*Journal of Economic Inequality*, 2022
-
-
 ## Background
 
 🎓 Ph.D. in Economics, Cornell University  
@@ -65,4 +32,4 @@ When I'm not in [Warner Hall](https://www.middlebury.edu/library/people/warner-h
 
 ---
 
-📄 Full CV [[pdf](https://germanr.com/reyes_cv.pdf) | [html](https://germanr.com/reyes_cv.html)] • 🌐 [germanr.com](https://germanr.com/)
+📚 [Papers](https://germanr.com/#WP) • 📄 Full CV [[pdf](https://germanr.com/reyes_cv.pdf) | [html](https://germanr.com/reyes_cv.html)] • 🌐 [germanr.com](https://germanr.com/)
