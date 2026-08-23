@@ -28,12 +28,18 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H97RM6C9H"></script>
     <script>
+        // Analytics load only on the live site, so local previews are not counted as visits.
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-8H97RM6C9H');
+        if (location.hostname === 'germanr.com' || location.hostname === 'www.germanr.com') {
+            var gaScript = document.createElement('script');
+            gaScript.async = true;
+            gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-8H97RM6C9H';
+            document.head.appendChild(gaScript);
+            gtag('js', new Date());
+            gtag('config', 'G-8H97RM6C9H');
+        }
     </script>
 
     <!-- Stylesheets - Using Bootstrap 4 only -->
@@ -697,7 +703,15 @@
     </script>
 
     <!-- Cloudflare Web Analytics -->
-    <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "69153368e0cb449b9d6c86034d2c03e9"}'></script>
+    <script>
+        if (location.hostname === 'germanr.com' || location.hostname === 'www.germanr.com') {
+            var cfScript = document.createElement('script');
+            cfScript.defer = true;
+            cfScript.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+            cfScript.setAttribute('data-cf-beacon', '{"token": "69153368e0cb449b9d6c86034d2c03e9"}');
+            document.body.appendChild(cfScript);
+        }
+    </script>
     <!-- End Cloudflare Web Analytics -->
 </body>
 
